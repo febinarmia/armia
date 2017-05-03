@@ -7,3 +7,7 @@ deployment:
    - ssh -i centos@52.33.148.33;
    - cd /home/pilot/public_html/circleci/armia/;
    - git pull;
+   
+test:
+override:
+  - echo 'no tests, just say us Okay!'
