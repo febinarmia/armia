@@ -10,4 +10,4 @@ commands:
 
 test:
 override:
-- echo 'no tests, just say us Okay!'
+ echo 'no tests, just say us Okay!'
