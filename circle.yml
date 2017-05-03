@@ -1,13 +1,9 @@
 
 deployment:
-production:
-branch: master
-commands:
-  - echo '1. Updating sources';
-  - ssh -i centos@52.33.148.33;
-  - cd /home/pilot/public_html/circleci/armia/;
-  - git pull;
-
-test:
-override:
-  - echo 'no tests, just say us Okay!'
+ production:
+  branch: master
+  commands:
+   - echo '1. Updating sources';
+   - ssh -i centos@52.33.148.33;
+   - cd /home/pilot/public_html/circleci/armia/;
+   - git pull;
